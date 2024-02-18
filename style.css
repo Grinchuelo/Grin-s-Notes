@@ -5,7 +5,6 @@
 }
 
 body {
-    background: #1c5981;
     position: relative;
     display: flex;
     height: 100vh;
@@ -17,10 +16,9 @@ body {
 .container {
     position: absolute;
     background: #111;
-    height: 55%;
-    width: 60%;
+    height: 100%;
+    width: 100%;
     border: solid 1px #333;
-    border-radius: 30px;
 }
 
 .leftColumn {
