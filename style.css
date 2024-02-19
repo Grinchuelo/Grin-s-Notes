@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -29,10 +31,26 @@ body {
     border-right: solid #333 1px;
 }
 
+.title {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    top: 10px;
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    color: #c4c4c4;
+}
+
+h1 {
+    line-height: 40px;
+    border-bottom: #444 solid;
+}
+
 .icono {
     position: absolute;
     width: 100%;
-    top: 10px;
+    top: 70px;
     display: flex;
     justify-content: center;
     cursor: pointer;
