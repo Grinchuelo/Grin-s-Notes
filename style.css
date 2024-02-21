@@ -17,6 +17,7 @@ body {
 
 .container {
     position: absolute;
+    flex-grow: 1;
     background: #111;
     height: 100%;
     width: 100%;
@@ -29,6 +30,9 @@ body {
     min-width: 25%;
     background: #161616;
     border-right: solid #333 1px;
+}
+.leftColumn:hover {
+    cursor: col-resize;
 }
 
 .title {
